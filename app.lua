@@ -1,7 +1,7 @@
 local reactorSide = "back"  -- The side of the reactor where the modem is connected
 local monitorSide = "left"  -- The side of the monitor where it is connected
 
-local highHeatThreshold = 0.95  -- The threshold at which the reactor should be shut off (95% of max case heat)
+local highHeatThreshold = 0.40  -- The threshold at which the reactor should be shut off (95% of max case heat)
 local reactorShutdown = false  -- Flag to track whether the reactor has been shut down
 
 -- Set up the monitor
